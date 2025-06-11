@@ -8,12 +8,12 @@
 
 ⚠️ 温馨提示：以下是精心筛选的稳定可靠的AI工具站点，持续更新中。
 
-| 工具名称 | 网址 | 支持模型 | 免费额度 | 特色功能 |
-| --- | --- | --- | --- | --- |
-| AGI智能助手 | [agi.maynor1024.live](https://agi.maynor1024.live/list/#/) | GPT-4, Claude, Gemini | 注册送额度 | 多模型集成、API支持 |
-| ChatGPT Plus 站点 | [chatgpt-plus.top](https://chatgpt-plus.top/) | GPT-4, GPT-3.5 | 每日免费额度 | 支持插件、代码解释器 |
+| 工具名称 | 网址 | 支持模型 | 免费额度   | 特色功能 |
+| --- | --- | --- |--------| --- |
+| AGI智能助手 | [agi.maynor1024.live](https://agi.maynor1024.live/list/#/) | GPT-4, Claude, Gemini | 注册送时长  | 多模型集成、API支持 |
+| ChatGPT Plus 站点 | [chatgpt-plus.top](https://chatgpt-plus.top/) | GPT-4, GPT-3.5 | 每日免费时长 | 支持插件、代码解释器 |
 | Claude Opus 平台 | [claude-opus.top](https://claude-opus.top/list) | Claude-3.5-Sonnet, Opus | 注册送50次 | 长文本处理、代码分析 |
-| API中转服务 | [apipro.maynor1024.live](https://apipro.maynor1024.live/) | 多种模型API | 按使用付费 | 稳定API中转、开发者友好 |
+| API中转服务 | [apipro.maynor1024.live](https://apipro.maynor1024.live/) | 多种模型API | 按使用付费  | 稳定API中转、开发者友好 |
 
 ## 📝 快速开始使用
 
