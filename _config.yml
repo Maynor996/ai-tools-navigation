@@ -1,8 +1,8 @@
 # Site settings
 title: "AI 工具导航 - 中文版指南"
 description: "国内访问各种 AI 工具的完整指南，持续更新中"
-url: "https://yourusername.github.io"
-baseurl: "/your-repo-name"
+url: "https://maynor996.github.io"
+baseurl: "/ai-tools-navigation"
 
 # Build settings
 markdown: kramdown
@@ -25,6 +25,11 @@ exclude:
   - vendor/gems/
   - vendor/ruby/
   - README.md
+  - deploy.sh
+  - test-update.js
+  - package.json
+  - package-lock.json
+  - scripts/
 
 # Collections
 collections:
@@ -50,8 +55,7 @@ author: "AI工具导航团队"
 email: "contact@example.com"
 
 # Social links
-github_username: yourusername
-twitter_username: yourtwitter
+github_username: Maynor996
 
 # Analytics (optional)
 # google_analytics: UA-XXXXXXXXX-X
@@ -60,4 +64,10 @@ twitter_username: yourtwitter
 timezone: Asia/Shanghai
 
 # Encoding
-encoding: utf-8 
+encoding: utf-8
+
+# kramdown配置
+kramdown:
+  input: GFM
+  hard_wrap: false
+  syntax_highlighter: rouge 

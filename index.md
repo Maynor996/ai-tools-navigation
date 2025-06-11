@@ -1,8 +1,13 @@
+---
+layout: default
+title: AI工具导航 - 中文版指南
+description: 国内访问各种AI工具的完整指南，持续更新中
+---
 
 # Claude AI 中文版
 国内访问 Claude AI 中文版的指南，支持 Claude 4 Sonnet/Opus，无需翻墙
 
-**更新时间：** 2025-06-11 15:49:24 (北京时间)
+**更新时间：** {{ site.time | date: "%Y-%m-%d %H:%M:%S" }} (北京时间)
 
 ## 🚀 推荐 AI 工具平台
 
@@ -133,4 +138,4 @@
 
 ---
 
-*最后更新：2025-06-11*
+*最后更新：{{ "now" | date: "%Y-%m-%d" }}*
