@@ -1,0 +1,63 @@
+# Site settings
+title: "AI 工具导航 - 中文版指南"
+description: "国内访问各种 AI 工具的完整指南，持续更新中"
+url: "https://yourusername.github.io"
+baseurl: "/your-repo-name"
+
+# Build settings
+markdown: kramdown
+highlighter: rouge
+theme: minima
+
+# Plugins
+plugins:
+  - jekyll-feed
+  - jekyll-sitemap
+  - jekyll-seo-tag
+
+# Exclude from processing
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor/bundle/
+  - vendor/cache/
+  - vendor/gems/
+  - vendor/ruby/
+  - README.md
+
+# Collections
+collections:
+  tools:
+    output: true
+    permalink: /:collection/:name/
+
+# Default values
+defaults:
+  - scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
+  - scope:
+      path: ""
+      type: "tools"
+    values:
+      layout: "tool"
+
+# Site data
+author: "AI工具导航团队"
+email: "contact@example.com"
+
+# Social links
+github_username: yourusername
+twitter_username: yourtwitter
+
+# Analytics (optional)
+# google_analytics: UA-XXXXXXXXX-X
+
+# Timezone
+timezone: Asia/Shanghai
+
+# Encoding
+encoding: utf-8 

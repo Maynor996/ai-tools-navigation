@@ -1,0 +1,50 @@
+{
+  "name": "ai-tools-navigation",
+  "version": "1.0.0",
+  "description": "一个基于 GitHub Pages 的 AI 工具导航网站，支持每日自动更新",
+  "main": "scripts/update-tools.js",
+  "scripts": {
+    "update": "node scripts/update-tools.js",
+    "test": "node test-update.js",
+    "test:quick": "node test-update.js --quick",
+    "test:json": "node test-update.js --json",
+    "dev": "bundle exec jekyll serve --livereload",
+    "build": "bundle exec jekyll build",
+    "deploy": "npm run build && npm run update",
+    "setup": "npm install && bundle install",
+    "check": "node test-update.js --quick"
+  },
+  "keywords": [
+    "ai",
+    "tools",
+    "navigation",
+    "github-pages",
+    "jekyll",
+    "chatgpt",
+    "claude",
+    "automation",
+    "api",
+    "proxy"
+  ],
+  "author": "AI工具导航团队",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^1.6.0",
+    "cheerio": "^1.0.0-rc.12"
+  },
+  "devDependencies": {
+    "eslint": "^8.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yourusername/ai-tools-navigation.git"
+  },
+  "bugs": {
+    "url": "https://github.com/yourusername/ai-tools-navigation/issues"
+  },
+  "homepage": "https://yourusername.github.io/ai-tools-navigation/",
+  "engines": {
+    "node": ">=18.0.0",
+    "npm": ">=8.0.0"
+  }
+} 
